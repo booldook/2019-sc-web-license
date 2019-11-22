@@ -1,0 +1,79 @@
+@charset "utf-8";
+/*
+기본텍스트색: #222328
+1200
+100/300/200/100
+로고: 200/40
+*/
+
+html, body {margin: 0; padding: 0; box-sizing: border-box; color: #222328; font-size: 12px;}
+p, div, ul, li, section, main, header, footer {margin: 0; padding: 0; box-sizing: border-box;}
+ul {list-style: none;}
+
+.clear {clear: both;}
+.clear:after {content: ""; display: block; clear: both;}
+
+a, a:link, a:hover {text-decoration: none; color: inherit; border: 0;}
+
+
+.wrapper {width: 1200px; margin: 0 auto;}
+.logo {float: left; padding-top: 30px;}
+.nav-wrap {float: right; position: relative;}
+.navs > li {float: left; width: 120px; height: 100px; line-height: 100px; text-align: center; font-size: 16px;}
+.navs > li:hover {background-color: #222328; color: #fff;}
+.subs {position: absolute; top: 100px; width: 480px; background-color: #ddd; color: #222328; z-index: 999; display: none;}
+.subs > li {width: 120px; text-align: center; font-size: 14px; float: left;}
+.subs > li > div {height: 30px; line-height: 30px;}
+.subs > li > div:hover {color: #f93; background-color: #222328;}
+
+.sub-hover {color: #36f; background-color: #222328;}
+
+.banner-wrap {width: 1200px; height: 300px; overflow: hidden; position: relative;}
+.banner-wrap a {display: block;}
+.slides {position: absolute; width: 1200px;}
+.slides > a {float: left; height: 300px; overflow: hidden;}
+.slide-title {position:absolute; z-index: 99; color: #fff; text-align: center; left: 50%; top: 50%; transform: translate(-50%, -50%)}
+.slide-title h2 {font-size: 60px;}
+.slide-title h4 {font-size: 30px; color: #ccc;}
+
+.content {width: 1200px; height: 200px; padding-top: 10px;}
+.content > div {float: left; width: 400px; height: 200px;}
+
+.tabs {height: 40px; line-height: 40px; text-align: center;}
+.tabs > div {width: 120px; height: 40px; background-color: #ddd; color: #222; float: left;}
+.tab-hover {background-color: #fff !important; border-top: 1px solid #999; border-left: 1px solid #999; border-right: 1px solid #999;}
+.tab {position: relative;}
+.tab > ul {width: 400px; height: 200px; position: absolute; top: 0; left: 0;}
+
+
+.notice > li {height: 30px; line-height: 30px;}
+.notice .title {color: darkblue; float: left; width: 300px;}
+.notice .date {color: darkcyan; float: left; width: 100px;}
+
+.gallery {padding-top: 24px; padding-left: 5px; padding-right: 5px; display: none;}
+.gallery > li {float: left; margin: 5px;}
+
+.content .ban-wrap {text-align: center; width: 260px;}
+.content .link-wrap {width: 540px;}
+.link-wrap .link li {width: 180px; height: 200px; float: left; padding: 10px; text-align: center;}
+
+.footer {background-color: #ddd;}
+.footer > div {float: left;}
+.footer > :nth-child(1) {width: 240px; height: 100px; padding-top: 30px; text-align: center;}
+.footer > :nth-child(2) {width: 720px; height: 100px; text-align: left;}
+.footer > :nth-child(3) {width: 240px; height: 100px; text-align: right; padding-right: 20px;}
+
+.popup {width: 300px; position: absolute; z-index: 9999; left: 50%; top: 50%; transform: translate(-50%, -50%); padding: 20px; border: 2px solid #aaa; background-color: #fff; display: none;}
+.popup > div {padding: 10px;}
+.popup > .bts {text-align: right;}
+
+
+
+
+
+
+
+
+
+
+
