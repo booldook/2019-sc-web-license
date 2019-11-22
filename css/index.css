@@ -31,7 +31,7 @@ a, a:link, a:hover {text-decoration: none; color: inherit; border: 0;}
 .banner-wrap {width: 1200px; height: 300px; overflow: hidden; position: relative;}
 .banner-wrap a {display: block;}
 .slides {position: absolute; width: 1200px;}
-.slides > a {float: left; height: 300px; overflow: hidden;}
+.slides > div {width: 1200px; height: 300px;}
 .slide-title {position:absolute; z-index: 99; color: #fff; text-align: center; left: 50%; top: 50%; transform: translate(-50%, -50%)}
 .slide-title h2 {font-size: 60px;}
 .slide-title h4 {font-size: 30px; color: #ccc;}
